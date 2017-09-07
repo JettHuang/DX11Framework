@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e630f48c-84e5-4638-9710-6a4dec076bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSLCompiler">
+      <UniqueIdentifier>{52c754d2-0d38-43a1-b4a9-65d2d58be0b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\D3DApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\D3DUtils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\dxerr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LightHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Waves.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLBaseBuffer.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLByteAddressBuffer.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLConstantBuffer.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLParameter.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLResource.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLResourceBindInfo.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLSamplerState.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLShader.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLShaderFactory.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLShaderType.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLShaderVariable.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLStructuredBuffer.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLTexture.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLTextureArray.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteHLSLTextureBuffer.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteProgramDefines.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSLCompiler\GteWrapper.cpp">
+      <Filter>HLSLCompiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\D3DApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\D3DUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DX11Includes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\dxerr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Waves.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLBaseBuffer.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLByteAddressBuffer.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLConstantBuffer.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLFactory.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLParameter.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLResource.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLResourceBindInfo.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLSamplerState.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLShader.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLShaderFactory.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLShaderType.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLShaderVariable.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLStructuredBuffer.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLTexture.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLTextureArray.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteHLSLTextureBuffer.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteMemberLayout.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteProgramDefines.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLCompiler\GteWrapper.h">
+      <Filter>HLSLCompiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

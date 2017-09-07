@@ -1,0 +1,11 @@
+
+*.obj
+*.idb
+*.pdb
+*.tlog
+.vs/LearningDX11/v14/.suo
+*.ilk
+*.exe
+*.opendb
+*.db
+*.log
